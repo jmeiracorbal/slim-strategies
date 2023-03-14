@@ -1,0 +1,30 @@
+{
+    "name": "jmeiracorbal/slim-strategies",
+    "description": "Resource kits to implement with Slim Framework",
+    "type": "library",
+    "license": "MIT",
+    "config": {
+        "platform": {
+            "php": "5.5.9"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jose Meira",
+            "email": "jose.meira@fba-consulting.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Slim\\Strategies\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "psr/http-message": "1.0.x-dev",
+        "psr/container": "^1.0"
+    },
+    "require-dev": {
+        "slim/slim": "3.x-dev"
+    }
+}
